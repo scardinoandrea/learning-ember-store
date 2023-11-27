@@ -63,42 +63,6 @@
       "name": "Nylon Hedgehog Cactus",
       "price": "$8.32",
       "days_in_stock": 611
-    },
-    {
-      "id": 15,
-      "name": "Mildred's Clarkia",
-      "price": "$2.19",
-      "days_in_stock": 1019
-    },
-    {
-      "id": 16,
-      "name": "Waikane Valley Cyrtandra",
-      "price": "$6.20",
-      "days_in_stock": 984
-    },
-    {
-      "id": 17,
-      "name": "Asian Forget-me-not",
-      "price": "$6.96",
-      "days_in_stock": 112
-    },
-    {
-      "id": 18,
-      "name": "Dwarf Huckleberry",
-      "price": "$4.65",
-      "days_in_stock": 978
-    },
-    {
-      "id": 19,
-      "name": "Great Basin Fishhook Cactus",
-      "price": "$0.94",
-      "days_in_stock": 109
-    },
-    {
-      "id": 20,
-      "name": "Broadbeard Beardtongue",
-      "price": "$2.93",
-      "days_in_stock": 905
     }
   ]
 }
