@@ -1,0 +1,104 @@
+{
+  "wine": [
+    {
+      "id": 1,
+      "name": "Arkansas Mannagrass",
+      "price": "$6.02",
+      "days_in_stock": 917
+    },
+    { "id": 2, "name": "Psorinia", "price": "$1.04", "days_in_stock": 76 },
+    { "id": 3, "name": "Lousewort", "price": "$8.55", "days_in_stock": 1007 },
+    {
+      "id": 4,
+      "name": "Schreber's Dicranella Moss",
+      "price": "$4.29",
+      "days_in_stock": 272
+    },
+    { "id": 5, "name": "Saltbush", "price": "$7.29", "days_in_stock": 993 },
+    {
+      "id": 6,
+      "name": "Comb Bushmint",
+      "price": "$9.74",
+      "days_in_stock": 162
+    },
+    { "id": 7, "name": "Wild Oilnut", "price": "$8.84", "days_in_stock": 354 },
+    {
+      "id": 8,
+      "name": "Rand's Goldenrod",
+      "price": "$0.12",
+      "days_in_stock": 345
+    },
+    {
+      "id": 9,
+      "name": "Fourwing Saltbush",
+      "price": "$7.55",
+      "days_in_stock": 731
+    },
+    {
+      "id": 10,
+      "name": "Heartleaf Cyrtandra",
+      "price": "$4.05",
+      "days_in_stock": 136
+    },
+    {
+      "id": 11,
+      "name": "Camasey Tomaso",
+      "price": "$0.07",
+      "days_in_stock": 599
+    },
+    {
+      "id": 12,
+      "name": "Thymeleaf Pinweed",
+      "price": "$0.58",
+      "days_in_stock": 755
+    },
+    {
+      "id": 13,
+      "name": "Lecidea Lichen",
+      "price": "$0.22",
+      "days_in_stock": 297
+    },
+    {
+      "id": 14,
+      "name": "Nylon Hedgehog Cactus",
+      "price": "$8.32",
+      "days_in_stock": 611
+    },
+    {
+      "id": 15,
+      "name": "Mildred's Clarkia",
+      "price": "$2.19",
+      "days_in_stock": 1019
+    },
+    {
+      "id": 16,
+      "name": "Waikane Valley Cyrtandra",
+      "price": "$6.20",
+      "days_in_stock": 984
+    },
+    {
+      "id": 17,
+      "name": "Asian Forget-me-not",
+      "price": "$6.96",
+      "days_in_stock": 112
+    },
+    {
+      "id": 18,
+      "name": "Dwarf Huckleberry",
+      "price": "$4.65",
+      "days_in_stock": 978
+    },
+    {
+      "id": 19,
+      "name": "Great Basin Fishhook Cactus",
+      "price": "$0.94",
+      "days_in_stock": 109
+    },
+    {
+      "id": 20,
+      "name": "Broadbeard Beardtongue",
+      "price": "$2.93",
+      "days_in_stock": 905
+    }
+  ]
+}

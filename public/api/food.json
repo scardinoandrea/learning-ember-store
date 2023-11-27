@@ -1,0 +1,84 @@
+{
+  "food": [
+    {
+      "id": 1,
+      "name": "Turkey Leg With Drum And Thigh",
+      "price": "$6.75",
+      "days_in_stock": 5
+    },
+    { "id": 2, "name": "Chicken wings", "price": "$8.75", "days_in_stock": 0 },
+    {
+      "id": 3,
+      "name": "Lemonade - Natural, 591 Ml",
+      "price": "$1.75",
+      "days_in_stock": 2
+    },
+    { "id": 4, "name": "Pur Value", "price": "$9.27", "days_in_stock": 7 },
+    {
+      "id": 5,
+      "name": "Pepper - Red Chili",
+      "price": "$8.37",
+      "days_in_stock": 2
+    },
+    {
+      "id": 6,
+      "name": "Crackers - Water",
+      "price": "$6.67",
+      "days_in_stock": 10
+    },
+    {
+      "id": 7,
+      "name": "Trout - Rainbow, Fresh",
+      "price": "$3.26",
+      "days_in_stock": 5
+    },
+    { "id": 8, "name": "Peanut", "price": "$3.26", "days_in_stock": 0 },
+    {
+      "id": 9,
+      "name": "Chocolate - Semi Sweet, Calets",
+      "price": "$6.42",
+      "days_in_stock": 2
+    },
+    {
+      "id": 10,
+      "name": "Anisette - Mcguiness",
+      "price": "$9.65",
+      "days_in_stock": 8
+    },
+    {
+      "id": 11,
+      "name": "Chicken - Leg / Back Attach",
+      "price": "$9.12",
+      "days_in_stock": 7
+    },
+    { "id": 12, "name": "Mango", "price": "$3.42", "days_in_stock": 7 },
+    { "id": 13, "name": "Banana", "price": "$4.11", "days_in_stock": 6 },
+    {
+      "id": 14,
+      "name": "Onions Granulated",
+      "price": "$2.12",
+      "days_in_stock": 6
+    },
+    { "id": 15, "name": "Sansho Powder", "price": "$7.71", "days_in_stock": 2 },
+    {
+      "id": 16,
+      "name": "Pasta - Orzo, Dry",
+      "price": "$1.35",
+      "days_in_stock": 6
+    },
+    {
+      "id": 17,
+      "name": "Onions - White",
+      "price": "$6.24",
+      "days_in_stock": 5
+    },
+    {
+      "id": 18,
+      "name": "Cheese - La Sauvagine",
+      "price": "$1.71",
+      "days_in_stock": 10
+    },
+    { "id": 19, "name": "Watercress", "price": "$9.22", "days_in_stock": 9 },
+    { "id": 20, "name": "Potatoes", "price": "$8.36", "days_in_stock": 2 }
+  ]
+}
