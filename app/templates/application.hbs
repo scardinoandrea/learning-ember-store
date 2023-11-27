@@ -1,6 +1,20 @@
-<h2>The Very Fresh Supermarket</h2>
-<nav>
-  <LinkTo @route='food'>Food</LinkTo>
-  <LinkTo @route='wine'>Wine</LinkTo>
-</nav>
+<h1 class='text-4xl font-bold text-gray-800 tracking-wide'>The Very Fresh
+  Supermarket</h1>
+<div class='flex justify-center space-x-4 mt-4'>
+  <LinkTo
+    @route='food'
+    class='bg-green-500 hover:bg-green-600 text-white font-bold py-2 px-4 rounded-full
+      {{if this.isFoodRoute "bg-green-700"}}'
+  >
+    Food
+  </LinkTo>
+
+  <LinkTo
+    @route='wine'
+    class='bg-green-500 hover:bg-green-600 text-white font-bold py-2 px-4 rounded-full
+      {{if this.isWineRoute "bg-green-700"}}'
+  >
+    Wine
+  </LinkTo>
+</div>
 {{outlet}}
