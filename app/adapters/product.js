@@ -26,13 +26,24 @@ export default class ProductAdapter extends RESTAdapter {
   } */
 
   // Override the `pathForType` method to use a different endpoint name
-  pathForType(type) {
+  /* pathForType(type) {
     if (type === 'product') {
-      /* if (this.router.currentRouteName === 'wine') {
+      if (this.router.currentRouteName === 'wine') {
         return 'wine.json';
-      } */
+      }
       return 'food.json';
     }
     return super.pathForType(type);
+  } */
+
+  buildURL(modelName, id, snapshot, requestType, query) {
+    if (modelName === 'product') {
+      if (this.router.currentRouteName === 'wine') {
+        return '/api/wine.json';
+      }
+
+      return '/api/food.json';
+    }
+    return super.buildURL(modelName, id, snapshot, requestType, query);
   }
 }
