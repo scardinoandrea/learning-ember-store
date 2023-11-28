@@ -13,9 +13,9 @@ export default class FoodRoute extends Route {
   // https://stackoverflow.com/questions/31342245/how-to-destroy-a-route-model-on-transition-in-ember-js
   // same as beforeModel
   // This event is triggered when the router completely exits this route. It is not executed when the model for the route changes
-  /* deactivate() {
+  deactivate() {
     this.store.unloadAll('product');
-  } */
+  }
 
   // no difference
   /*  willTransition() {

@@ -81,6 +81,7 @@
 - [EmberData docs](https://guides.emberjs.com/release/models/)
 - [Cannot free memory via unloadAll('model') if model has relationships #4938] (https://github.com/emberjs/data/issues/4938)
 - [EmberJS clean store when transition on different route] (https://stackoverflow.com/questions/30219891/emberjs-clean-store-when-transition-on-different-route)
+- [How do I force unloadAll() to execute?] (https://discuss.emberjs.com/t/how-do-i-force-unloadall-to-execute/13754/1)
 - ...a lot of other links that I lost on the way
 
 <p align="right">(<a href="#top">back to top</a>)</p>

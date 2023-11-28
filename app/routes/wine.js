@@ -9,9 +9,9 @@ export default class WineRoute extends Route {
     this.store.unloadAll('product');
   } */
 
-  /* deactivate() {
+  deactivate() {
     this.store.unloadAll('product');
-  } */
+  }
 
   /* willTransition() {
     let products = this.store.peekAll('product');
