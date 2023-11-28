@@ -33,7 +33,7 @@
         <li><a href="#installation">Installation</a></li>
       </ul>
     </li>
-    <li><a href="#acknowledgments">Acknowledgments</a></li>
+    <li><a href="#futher-reading">Futher reading</a></li>
   </ol>
 </details>
 
