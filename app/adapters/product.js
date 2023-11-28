@@ -6,6 +6,7 @@ export default class ProductAdapter extends RESTAdapter {
 
   @service router;
 
+  // Override the `pathForType` method to use a different endpoint name
   /*  This method is called before the route has finished rendering, so it may not be possible to wait until the route is fully rendered before calling it  
   pathForType() {
     if (this.router.currentRouteName === 'food') {
@@ -15,30 +16,14 @@ export default class ProductAdapter extends RESTAdapter {
     }
   } */
 
-  /*   findAll() {
-    if (this.router.currentRouteName === 'food') {
-      this.namespace = 'api/food.json';
-    } else if (this.router.currentRouteName === 'wine') {
-      this.namespace = 'api/wine.json';
-    }
-
-    return super.findAll(...arguments);
-  } */
-
-  // Override the `pathForType` method to use a different endpoint name
-  /* pathForType(type) {
-    if (type === 'product') {
-      if (this.router.currentRouteName === 'wine') {
-        return 'wine.json';
-      }
-      return 'food.json';
-    }
-    return super.pathForType(type);
-  } */
-
   buildURL(modelName, id, snapshot, requestType, query) {
     if (modelName === 'product') {
-      if (this.router.currentRouteName === 'wine') {
+      console.log(
+        this.router.currentRouteName ?? window.location.pathname.substring(1)
+      );
+      const currentRoute =
+        this.router.currentRouteName ?? window.location.pathname.substring(1);
+      if (currentRoute === 'wine') {
         return '/api/wine.json';
       }
 
