@@ -4,7 +4,7 @@
 <br />
 <div align="center">
   <a href="https://github.com/scardinoandrea/learning-ember-store">
-    <img src="public/images/logo.webp" alt="Logo" width="80" height="80"> 
+    <img src="public/images/logo.png" alt="Logo" width="80" height="80"> 
   </a>
 
 <h3 align="center">Managing the Ember store </h3>
